@@ -161,3 +161,37 @@ h1 {
     margin: 0 auto;
     display: block;
 }
+
+
+
+@media (max-width: 800px) {
+    .body_wrapper {
+        width: 100%;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+
+    header nav {
+        width: 100%;
+        padding: 0 2%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    header .header-image {
+        width: 200px;
+        padding-bottom:20px;
+    }   
+    
+
+}
+
+
+@media (max-width: 600px) {
+    
+}

@@ -121,7 +121,6 @@ nav a {
 	flex-wrap: wrap;
 }
 
-
 .division_box {
 	padding: 40px 10px;
 }
@@ -188,7 +187,18 @@ h1 {
         padding-bottom:20px;
     }   
     
+    .main-image {
+        display: none;
+    }
 
+    .division_main {
+        width: 100%;
+    }
+
+    .middle-img {
+        width:100%;
+        padding:2%;
+    }
 }
 
 

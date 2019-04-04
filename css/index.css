@@ -166,6 +166,7 @@ h1 {
 @media (max-width: 800px) {
     .body_wrapper {
         width: 100%;
+        padding: 2%;
     }
 
     header {
@@ -202,6 +203,27 @@ h1 {
 }
 
 
-@media (max-width: 600px) {
-    
+@media (max-width: 500px) {
+    header nav {
+        flex-wrap: wrap;
+    }
+
+    header nav :first-child {
+        border-top: 1px solid grey;
+    }
+
+    nav a {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        border-bottom:1px solid grey;
+    }    
+
+    .division_container {
+        display: block;
+    }
+
+    .division_2, .division_3 {
+        width: 100%;
+    }
 }
